@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Change to project root directory
+cd "$(dirname "$0")/.."
+
+# Check if venv exists, create if not
+if [ ! -d ".venv" ]; then
+    python3 -m venv .venv
+    clear
+fi
+
+# Activate venv
+source .venv/bin/activate
+clear
+
+# Install requirements if requirements.txt exists
+if [ -f "requirements.txt" ]; then
+    pip install -r requirements.txt
+    clear
+fi
+
+# Run app.py
+python app.py

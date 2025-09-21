@@ -1,0 +1,37 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv/
+env/
+venv/
+
+# Distribution
+build/
+*.egg-info/
+dist/
+*.egg
+
+# Tests/Coverage
+.tox/
+.coverage
+htmlcov/
+.pytest_cache/
+.cache
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+opencode.json
