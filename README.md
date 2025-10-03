@@ -1,5 +1,11 @@
 # 🎮 Unity Game Bot - AI-Powered Team Collaboration
 
+
+
+https://github.com/user-attachments/assets/0137bff2-a926-4d87-8a13-66d0131a1f46
+
+
+
 Meet your virtual Unity mobile game development team! This CLI tool simulates a complete game dev studio with specialized AI roles that help you brainstorm, debug, and optimize your Unity mobile games.
 
 Definitely glitchy, and do not substitute a great team on professional workflows, but fun to experiment and brain dump ideas at. =)
